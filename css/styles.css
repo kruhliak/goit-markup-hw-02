@@ -1,0 +1,86 @@
+:root {
+  --primary-text-color: #757575;
+  --title-text-color: #212121;
+  --accent-color: #2196f3;
+}
+
+body {
+  font-family: Roboto, sans-serif;
+  color: var(--primary-text-color);
+  font-weight: 400;
+}
+
+.link {
+  text-decoration: none;
+  cursor: pointer;
+  color: var(--title-text-color);
+}
+
+.link:hover {
+  color: var(--accent-color);
+}
+
+.list {
+  list-style: none;
+}
+
+.title {
+  color: var(--title-text-color);
+}
+
+/* Шапка */
+
+.nav {
+  background-color: #fff;
+}
+
+.logo {
+  font-family: Raleway, sans-serif;
+  color: var(--accent-color);
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+}
+
+.logo > .logo-nav {
+  color: var(--title-text-color);
+}
+
+.nav > .list {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.1;
+  letter-spacing: 0.02em;
+}
+
+.nav .contact {
+  color: var(--primary-text-color);
+}
+
+/* Герой */
+
+.hero {
+  background-color: #2f303a;
+}
+
+.hero > .title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+.hero > .link {
+  font-size: 16px;
+  line-height: 1.87;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: #fff;
+}
